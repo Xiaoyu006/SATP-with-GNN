@@ -22,3 +22,8 @@ The proposed dynamics-only one channel model is implemented in `stp_r_model.py`
 
 These models are based on a base model implemented in `stp_base_model.py`
 
+## Training
+Train the two channel model:
+
+`python train.py`
+
