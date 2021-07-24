@@ -10,14 +10,11 @@ Preprocess data for the single trajectory prediction task.
 `python stp_data_pre.py`
 
 ### Models
-The proposed two channel model with GNN & RNN is implemented in:
+The proposed two channel model with GNN & RNN is implemented in `stp_gr_model.py`
 
-`stp_gr_model.py`
+The proposed interaction-only one channel model is implemented in `stp_g_model.py`
 
-The proposed interaction-only one channel model is implemented in:
+The proposed dynamics-only one channel model is implemented in `stp_r_model.py`
 
-`stp_g_model.py`
+These models are based on a base model implemented in `stp_base_model.py`
 
-The proposed dynamics-only one channel model is implemented in:
-
-`stp_r_model.py`
