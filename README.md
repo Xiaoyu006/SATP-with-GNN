@@ -9,6 +9,10 @@ Preprocess data for the single trajectory prediction task.
 
 `python stp_data_pre.py`
 
+The dataset is managed by 
+
+`stp_gr_dataset.py`
+
 ### Models
 The proposed two channel model with GNN & RNN is implemented in `stp_gr_model.py`
 
