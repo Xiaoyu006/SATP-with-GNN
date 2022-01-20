@@ -30,6 +30,7 @@ Train the two channel model:
 ## Citation
 If you find this repo helpful in your work, please cite our paper as:
 
+```
 @inproceedings{mo2021graph, 
   title={Graph and Recurrent Neural Network-based Vehicle Trajectory Prediction For Highway Driving}, 
   author={Mo, Xiaoyu and Xing, Yang and Lv, Chen}, 
@@ -38,5 +39,16 @@ If you find this repo helpful in your work, please cite our paper as:
   year={2021}, 
   organization={IEEE} 
 }
+```
+
+
+```
+@inproceedings{Fey/Lenssen/2019,
+  title={Fast Graph Representation Learning with {PyTorch Geometric}},
+  author={Fey, Matthias and Lenssen, Jan E.},
+  booktitle={ICLR Workshop on Representation Learning on Graphs and Manifolds},
+  year={2019},
+}
+```
 
 Thank you!
