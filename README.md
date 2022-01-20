@@ -41,14 +41,4 @@ If you find this repo helpful in your work, please cite our paper as:
 }
 ```
 
-
-```
-@inproceedings{Fey/Lenssen/2019,
-  title={Fast Graph Representation Learning with {PyTorch Geometric}},
-  author={Fey, Matthias and Lenssen, Jan E.},
-  booktitle={ICLR Workshop on Representation Learning on Graphs and Manifolds},
-  year={2019},
-}
-```
-
 Thank you!
