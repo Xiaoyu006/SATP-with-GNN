@@ -39,7 +39,7 @@ if __name__ == '__main__':
         pass
 
 
-    dataset = combined_gnn_tp_dataset(data_path='/home/xy/stp_data_2021', scenario_names=['stp0750am-0805am', 'stp0805am-0820am', 'stp0820am-0835am']) 
+    dataset = STP_GR_Dataset(data_path='/home/xy/stp_data_2021', scenario_names=['stp0750am-0805am', 'stp0805am-0820am', 'stp0820am-0835am']) 
     # 'stp0750am-0805am' , 'stp0805am-0820am' 'stp0820am-0835am'
     print(dataset.__getitem__(0).num_edges)
     # print('there are {} data in {} dataset'.format(dataset.__len__(), dataset.scenario_name))
